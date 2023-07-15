@@ -1,0 +1,100 @@
+body {
+  font-family: 'Castoro', serif;
+}
+.index-title {
+  font-size: 100px;
+}
+
+img{
+  height:350px;
+  @media (min-width: 992px) { height:555px }
+}
+.img-2{
+  height:680px;
+  @media (min-width: 992px) { height:1080px }
+}
+
+a {
+  text-decoration:none;
+}
+
+.shopnow {
+  background-image: url(https://images.unsplash.com/photo-1588159343745-445ae0b16383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 480px;
+  @media (min-width: 992px) { 
+      height:870px;
+  }
+  a:hover {
+    background-color: rgba(224, 214, 214, 0.6);
+    background-blend-mode: multiply;
+  }
+}
+
+.commodity {
+  .img {
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      @media (min-width: 992px) { 
+          height:540px;
+          background-position: center center;
+      }
+      &-1 {
+          background-image: url(https://images.unsplash.com/photo-1530630458144-014709e10016?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MTE1ODAyMTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+      }
+      &-2 {
+          background-image: url(https://images.unsplash.com/photo-1556228720-da4e85f25e15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8MTE1ODAyMTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+      }
+      &-3 {
+          background-image: url(https://images.unsplash.com/photo-1559264730-1533a6ec0433?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjh8MTE1ODAyMTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+          background-color: rgba(0, 0, 0, .6);
+          background-blend-mode: multiply;
+      }
+  }
+}
+
+.bottleRecycling {
+  .img {
+      height: 520px;
+      background-image: url(https://images.unsplash.com/photo-1594913615593-e4b8c44625be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwxMTU4MDIxNHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60);
+      background-size:cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+  }
+  a:hover {
+    color:black
+  }
+}
+
+.planAFree:hover {
+  background-color: #916000;
+  color: white;
+}
+
+.subscription {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index10.jpg?raw=true);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.commodity {
+  img {
+      height: 165px;
+      @media (min-width: 992px) { height:255px }
+  }
+}
+
+.porduct-nav {
+  a {
+      color: white;
+  }
+
+  a:hover {
+      color: black;
+  }
+}
